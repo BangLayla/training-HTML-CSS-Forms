@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="p2.css">
+    <head>
+    <title>New Account</title>
+    </head>
+    <body>
+        <div class="new-registration">
+            <h2>Creating a New Account</h2>
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="firstname" placeholder="Your First Name." required><br>
+            <label for="lastname">Last Name</label><br>
+            <input type="text" id="lastname" name="lastname" placeholder="Your Last Name." required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required placeholder="Your Email."><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" class="gender">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" class="gender">Female</label><br>
+            <label for ="password" class="p1">Password</label><br>
+            <input type ="password"id ="password"name ="password" placeholder="The Password for You Account." required><br>
+            <label for ="confirm_password" class="p2">Confirm Password</label><br>
+            <input type ="password"id ="confirm_password"name ="confirm_password" placeholder="Write it again." required><br>
+            <input type = "submit"value = "Submit" id="sub">
+            <div class="LogIn">
+                <p>Do you have a previous account? <a href="">Log In</a></p>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>

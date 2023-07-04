@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.new-registration{
+    position: relative;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px #888888;
+    border: solid 1px none;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 420px;
+    left: 470px;
+    top: 120px;
+}
+h2{
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+label{
+    color: white;
+    position: absolute;
+    left: 40px;
+    font-weight: bold;
+    font-size:20px;
+}
+input{
+    position: absolute;
+    left: 220px;
+    width: 150px;
+    height: 20px;
+    font-size:15px;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.sendit{
+    position: absolute;
+    font-size: larger;
+    left: 40px;
+    top: 330px;
+    color: white;
+}
+.p1{
+    top: 280px;
+}
+.p2{
+    top: 325px;
+}
+.gender{
+    font-size: 15px;
+    left: 120px;
+}
+#name{
+    top: 80px;
+}
+#lastname{
+    top: 118px;
+}
+#email{
+    top: 160px;
+}
+#male{
+    top: 220px;
+    width: 15px;
+}
+#female{
+    top: 242px;
+    width: 15px;
+}
+#sub{
+    top: 380px;
+    left: 150px;
+    width: 100px;
+    height: 30px;
+    background-color: hsl(207, 44%, 52%);
+    color: white;
+    border: none;
+}
+#sub:hover{
+    background-color: hsl(207, 43%, 37%);
+}
+.LogIn{
+    position: absolute;
+    font-size: small;
+    left: 60px;
+    top: 355px;
+    color: white;
+}
+.LogIn a{
+    text-decoration: none;
+}
